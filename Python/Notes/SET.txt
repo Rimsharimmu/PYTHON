@@ -1,0 +1,151 @@
+SET
+
+- A set is an unordered collection datatype (there is no indexing in sets) that is iterable, mutable and has no duplicate elements.
+- Sets can be used to perform mathematical set operations union, intersection.
+-Elements in the sets cannot be accessed using indexing and hence modifying the set is not possible.
+- A set can be deleted
+
+syntax:
+s=set()
+s=set([1,2,'hi',2,'bye'])
+s={1,2,3,4,1,3}
+
+methods:
+add():
+adding an element
+s.add()
+
+update():
+updates the set with the union of itself and others.
+a,b are two sets.
+a.update(b) - (updating the set a)
+
+copy():
+returns a copy of the set.
+s1=s.copy()
+
+clear():
+removes all the elements from the set.
+s.clear()
+
+NOTE: 
+clear makes the set empty but yet the set still remains.
+delete option deletes the set completely.
+
+remove():
+removes an element from the set.
+If the element is not a member, raise a KeyError.
+s.remove()
+
+pop():
+removes and returns an arbitrary set element. Raise KeyError if the set is empty.
+print(s.pop())
+
+discard():
+removes an element from the set if it is a member.
+s.discard()
+
+union():
+returns the union of sets in a new set.
+print(a.union(b))
+print(a|b)
+
+intersection():
+intersection of two sets.
+print(a. Intersection(b))
+print(a&b)
+
+intersection_update():(similar elements)
+updates the set with the intersection of itself and another.
+a.intersection_update(b)
+print(a)
+
+difference():
+returns the difference of two or more sets as a new set
+print(a.difference(b))
+
+difference_update():
+removes all elements of another set from this set.(stores the result in the a set by updating it as a new set).
+a.difference_update(b)
+
+symmetric_difference():
+returns the symmetric difference of two sets as a new set.(removes the common elements and gives the entire remaining elements in a single set).
+print(a.symmetric_difference(b))
+
+symmetric_difference_update():
+updates a set with the symmetric.(updates the a set with the output elements and removes the old elements).
+a.symmetric_difference_update(b)
+
+isdisjoint():
+output is true if two sets have a null intersection.
+print(a.isdisjoint(b))
+
+issubset():
+output is true if another set contains this set.
+print(b.issubset(a))
+
+issuperset():
+output is true if this set contains another set.
+print(a.issuperset(b))
+
+
+SET Built-In Functions:
+
+sum():
+print(sum(s))
+
+max():
+print(max(s))
+
+min():
+print(min(s))
+
+len():
+print(len(s))
+
+all():
+Return True if all elements of the set are true( if 0 presents in the set the output is false).
+print(all(s))
+
+any():
+return True if any element of the set id true. If the set is empty, return false.
+print(any(s))
+
+sorted():
+return a new sorted list from elements in the sets(does not sort the set itself). 
+print(sorted(s))
+
+
+Operations On Set:
+----------------------
+
+Membership on Set(in, not in)
+
+Equal(==), Not Equal(!=)
+
+Subset(<=), Proper Subset(>)
+
+Union(|), Intersection(&)
+
+Difference(-), Symmetric_Difference(^)
+
+
+Frozen SET:
+
+-Frozen sets are immutable sets.
+
+-Can be created using the function frozenset().
+
+-The datatype supports: copy(), difference(), intersection(), isdisjoint(), issubset(), issuperset().
+
+
+SET comprehension:
+
+-Returns a set based on existing iterables.
+
+Syntax:
+{expression(variable) for variable in input_set[predicate][,..]}
+
+example:
+res={s for s in[1, 2, 3] if s % 2}
+print(res)

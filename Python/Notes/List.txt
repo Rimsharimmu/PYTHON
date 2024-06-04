@@ -1,0 +1,105 @@
+           List Methods
+append():
+add a list as a single element to the end of the list.
+L.append([])
+
+
+extend():
+adding all elements of a list to another list.
+L.extend([])
+
+insert():
+insert an item at the defined index.
+L.insert(index,' ')
+
+remove():
+removing an element
+L.remove()
+
+pop():
+removes an item by its index from the list.
+L.pop(index value)
+
+clear():
+clearing the list
+
+
+index();
+returns the index of the first matched item.
+print(L.index(2))
+
+count():
+returns the count of the no.of items passed an argument.
+print(L.count(2))
+
+copy():
+returns a copy of the list
+L=[15,2,10,5,2,3]
+L1=L.copy()
+print(L1)
+o/p: [15,2,10,5,2,3]
+
+sort():
+sort items in a list in ascending order
+L.sort()
+
+reverse():
+Reverse the order of items in the list.
+L.reverse()
+
+           List Built-In fuctions
+
+sum():
+sums up the numbers in  the list.
+print(sum(L))
+
+max():
+return maximum element
+print(max(L))
+
+min():
+return minimum element
+print(min(L))
+
+all():
+returns true if all element are true.
+print(all(L))
+
+any():
+returns true if any element of the list is true. If list is empty, return false.
+print(any(L))
+
+len():
+length of the list or size of the list.
+print(len(L))
+
+#To sort based on length we use:
+L.sort(key=len)
+#reverse order sorting:
+L.sort(reverse=True)
+
+     * Operations on list:
+concatenation of list(+)
+
+Repetition of list(*)
+
+Membership on list(): in operator
+
+
+     * Slicing a list:
+
+L[:] - prints all the elements from the list.
+L[2:] - prints all the elements from the list starting from index 2.
+L[:5] - prints all the elements from the list till the ending index 4.
+L[2:6] - prints the elements from the list from index2 till index 5.
+L[-4:2] - prints the elements from the list from index -4 till index -3.
+L[::2] - prints all elements from the list with step 2(index+2 element) from the beginning.
+L[::-1] - prints all the elements from the list with step1(index+1) from the last.
+L[1:6:3] - prints all the elements from the list from index 1 till index 5 with step3.
+
+NOTE:
+ last element is not includes.
+
+NESTED list:
+List inside another list is nested list.
+also called as multidimensional list.

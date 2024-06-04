@@ -1,0 +1,47 @@
+Tuple:
+ - tuple is immutable
+ - tuple uses ()
+ - tuple can be deleted by using del keyword.
+
+Methods:
+index():
+returns the index of the first matched item.
+print(t.index(' '))
+
+count():
+returns the count of number of items passed as a argument.
+print(t.count(i))
+
+sum():
+sums up the numbers in the tuple.
+print(sum(t1))
+
+max(): 
+return maximum elements of given tuple
+print(max(t1))
+
+min():
+return minimum element of given tuple.
+print(min(t1))
+
+all():
+returns true if any element of the tuple is true. If tuple is empty, return false
+
+any():
+returns true if any element of the tuple is true.
+
+cocatenation of tuple(+):
+print(t+t1)
+
+repition(*):
+repeats the tuple
+t1*3
+
+memebership: in or not in
+
+Slicing:
+Used to print specific range of elements from the tuple(:)
+same as methods.
+
+Nested Tuples:
+Tuple inside another tuple is nested tuple.

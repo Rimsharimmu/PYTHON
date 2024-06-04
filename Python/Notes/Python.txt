@@ -1,0 +1,138 @@
+				Python
+
+-High level programming language
+- used for
+	~ Desktop Applications
+	~ Web Applications
+	~ Database Applications
+	~ Networking Programming
+	~ Developing Games
+	~ Data Analysis Application
+	~ Machine Learning
+	~ AI Applications
+	~ IoT
+- Features:
+	- Simple
+	- 30+ keywords available
+
+There are 33 reserved words that are available in Python:
+	Lambda, del, with, global, nonlocal, pass, def, class , as, from, assert import, raise, finally, except, try, yield, in, return, continue, break, for, while, else, elif, if, is, not, or, None* and, False*, True*.
+
+
+
+str Type
+
+str represents string data type.
+A string is a sequence of characters enclosed within single quotes or double quotes.
+
+
+
+
+
+
+
+
+
+
+slice means a piece
+[] operator is called slice operator, which can be used to retrieve parts of string.
+In python strings follow zero based index.
+The index can be either +ve or -ve.
+
+
+example:
+s= "sasankan"
+print(s[2:6])
+
+The following are various inbuilt functions for type casting.
+1.int()
+2.float()
+3.
+
+Note:
+1. We can convert from any type to int except complex type.
+2. If we want to convert str type to int type, compulsory str should contain only integral value and should be specified in base-10.
+
+
+1. The binary bit that is ending with 0 is an even decimal number.
+2. The binary bit that is ending with 1 must be an odd decimal number.
+
+
+Arithmetic operations:
+a= 8
+b= 4
+print('a+b=',a+b)
+print('a-b=',a-b)
+print('a*b=',a*b)
+print('a/b=',a/b)
+print('a//b=',a//b)
+print('a%b=',a%b)
+print('a**b=',a**b)
+
+
+Relational Operators:
+a=10
+b=20
+print("a>b is ", a>b)
+print("a>=b is ", a>=b)
+print("a<b is ", a<b)
+print("a<=b is ", a<=b)
+
+NOTE :
+  '>' not supported between instances of 'int' and 'str'
+
+Equality Operations:
+a==b
+a!=b
+
+
+
+
+
+
+Bitwise Operators:
+we can apply these operators bitwise.
+these operators are applicable only for int and Boolean types.
+&(AND) == If both bits are 1 then only result is 1 otherwise result is 0.
+| (OR) == If atleast one bit is 1 then result is 1 otherwise the result is 0.
+^ (XOR) == If bits are different then only result is 1 otherwise result is 0.
+~(NOT) == Bitwise complement operator
+1==0 & 0 == 1
+<< == Bitwise left shift
+>> == Bitwise Right shift
+
+
+Swapping numbers using XOR
+a=30
+b=40
+c=a^b
+a=a^c
+b=b^c
+print(a)
+print(b)
+
+-(~no)
+
+Program to find even or odd using gates:
+a=17
+if (a&1==0):
+    print("even")
+else:
+    print("odd")
+
+Bitwise complement operator(~):
+We have to apply complement for total bits.
+eg: print(~5) ==> -6
+
+NOTE:
+The most significant bit acts as sign bit. 0 value represents +ve number where as 1 represents -ve value.
+Positive numbers will be represented directly in the memory where as -ve numbers will be represented indirectly in 2's complement form.
+
+Ternary Operator:
+
+
+
+
+
+
+

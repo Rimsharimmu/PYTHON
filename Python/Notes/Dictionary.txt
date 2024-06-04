@@ -1,0 +1,67 @@
+Dictionary:
+
+-A dictionary is a collection which is unordered, changeable and indexed.
+
+-In python dictionaries are written with curly  brackets, and they have keys and values.
+
+Methods:
+
+get():
+
+pop():
+
+copy():
+
+
+print(d.keys())
+
+print(d.values())
+
+print(d.items())
+
+fromkeys():
+Create a new dictionary with keys from seq and values set to value.
+d=d.fromkeys(d,10)
+
+setdefault():
+Set dict[key]=default if key is not already in dict.
+print(d.setdefault('a'))
+print(d.setdefault('c',200))
+
+
+Nested Dictionary:
+----------------------
+dictionary inside another dictionary is nested dictionary.
+ex:
+d={1:'hi','a':123, 100:{2:'abc', 'x':452, 2.3:120}, 5.4:'python}
+print(d[100]['x'])
+
+
+Dictinary comprehension:
+dictionary comprehension is a method for transforming one dictionary into another dictionary
+
+ex:
+d={'a':1,'b'=2,'c'=3}
+d1={k*2
+
+
+Dictionary :
+	- is a collection which is unordered, changeable and indexed.
+        - written with curly brackets, and they have keys and values 
+	- values can be of any datatype, and can be duplicated. whereas keys cannot be repeated and must be immutable
+	- Adding an element to dictionary - d[key] = value
+	- the dictionary can be deleted using del keyword
+	- and u can delete an item in dictionary
+	- get() - get the value of the particular key
+	- update() - adds dictionary dict2's key-value pairs to dict [ d.update(1:'a', 2:123) ]
+	- copy() - returns a shallow copy of the dictionary [ d1 = d.copy() ]
+	- pop() - removes and returns an element from a dictionary having the given key - [ d.pop('a') ]
+	- popitem() - removes the arbitrary key-value pair from the dictionary and return it as tuple - [ d.popitem() ]
+	- clear() - removes all items from the dictionary - [ d.clear() ]
+	- keys() - returns list of dictionary dict's keys - [ d.keys() ]
+	- values() - returns the values of the dictionary - [ d.values() ]
+	- items() - returns the key-value pairs as tuple - [ d.items() ]
+	- fromkeys() - create a new dictionary with jeys from seq and values set to value - [ d = dict.fromkeys(d,10) ]
+	- setdefault() - set dict[key] = default if key is not already in dict
+	- it is possible to have nested dictionary  - and that dictionary will also have a key.
+	-
